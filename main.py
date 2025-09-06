@@ -3,10 +3,11 @@ from typing import Dict, Callable
 
 import yaml
 
-from mode import weekly
+from mode import weekly, monthly
 
 MODE_GENERATORS: Dict[str, Callable[[str, str], None]] = {
     "weekly": weekly.generate,
+    "monthly": monthly.generate,
 }
 
 
