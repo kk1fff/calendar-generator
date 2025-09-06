@@ -1,11 +1,11 @@
 import datetime
-import argparse
 from reportlab.lib.pagesizes import letter, landscape
 from reportlab.lib import colors
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
 
-def round_to_week(start_date, end_date):
+
+def _round_to_week(start_date: datetime.date, end_date: datetime.date):
     start_weekday = start_date.weekday()
     if start_weekday != 6:
         start_date -= datetime.timedelta(days=(start_weekday + 1) % 7)
@@ -14,10 +14,11 @@ def round_to_week(start_date, end_date):
         end_date += datetime.timedelta(days=(5 - end_weekday + 7) % 7)
     return start_date, end_date
 
-def generate_weekly_calendar(start_date_str, end_date_str):
+
+def generate(start_date_str: str, end_date_str: str) -> None:
     start_date = datetime.datetime.strptime(start_date_str, "%Y/%m/%d").date()
     end_date = datetime.datetime.strptime(end_date_str, "%Y/%m/%d").date()
-    start_date, end_date = round_to_week(start_date, end_date)
+    start_date, end_date = _round_to_week(start_date, end_date)
 
     c = canvas.Canvas("calendar.pdf", pagesize=landscape(letter))
     width, height = landscape(letter)
@@ -80,11 +81,3 @@ def generate_weekly_calendar(start_date_str, end_date_str):
 
     c.save()
     print("calendar.pdf generated successfully!")
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate a weekly calendar PDF.")
-    parser.add_argument("start_date", help="Start date in YYYY/MM/DD format")
-    parser.add_argument("end_date", help="End date in YYYY/MM/DD format")
-    args = parser.parse_args()
-
-    generate_weekly_calendar(args.start_date, args.end_date)
