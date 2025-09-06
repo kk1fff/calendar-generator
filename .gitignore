@@ -1,2 +1,4 @@
 **/.DS_Store
 calendar.pdf
+__pycache__/
+*.pyc
