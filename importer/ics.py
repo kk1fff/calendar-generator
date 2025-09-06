@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import datetime as dt
+import io
+import contextlib
 from dataclasses import dataclass
 from typing import Iterable, List
-from urllib import request
+from urllib import error, request
 
 from ics import Calendar
 
@@ -34,8 +36,39 @@ class ICSImporter(IImporter):
 
     def Load(self) -> None:
         if self._path.startswith("http://") or self._path.startswith("https://"):
-            with request.urlopen(self._path) as resp:
-                data = resp.read().decode("utf-8")
+            req = request.Request(self._path)
+            opener = request.build_opener(
+                request.HTTPHandler(debuglevel=1),
+                request.HTTPSHandler(debuglevel=1),
+            )
+            network_log = io.StringIO()
+            try:
+                with contextlib.redirect_stderr(network_log):
+                    with opener.open(req) as resp:
+                        data = resp.read().decode("utf-8")
+            except Exception as e:
+                print("--- ICS network failure ---")
+                print("Request URL:", req.full_url)
+                print("Request headers:", dict(req.header_items()))
+                if req.data:
+                    print(
+                        "Request payload:",
+                        req.data.decode("utf-8", errors="replace"),
+                    )
+                else:
+                    print("Request payload: <none>")
+                print("Network detail:")
+                print(network_log.getvalue())
+                if isinstance(e, error.HTTPError):
+                    print("Response code:", e.code)
+                    print("Response headers:", dict(e.headers.items()))
+                    try:
+                        resp_payload = e.read().decode("utf-8", errors="replace")
+                    except Exception:
+                        resp_payload = "<unable to read response payload>"
+                    print("Response payload:", resp_payload)
+                print("Error summary:", repr(e))
+                raise
         else:
             with open(self._path, "r", encoding="utf-8") as f:
                 data = f.read()
