@@ -1,1 +1,4 @@
 mode: weekly
+importers:
+  - importer_type: ics
+    path: "https://www.lwsd.org/calendar/calendar_354.ics"

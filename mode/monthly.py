@@ -1,9 +1,12 @@
 import datetime
 import calendar
+from typing import List
 from reportlab.lib.pagesizes import letter, landscape
 from reportlab.lib import colors
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
+
+from importer import IImporter
 
 
 def _round_to_month(start_date: datetime.date, end_date: datetime.date):
@@ -13,7 +16,7 @@ def _round_to_month(start_date: datetime.date, end_date: datetime.date):
     return start_date, end_date
 
 
-def generate(start_date_str: str, end_date_str: str) -> None:
+def generate(start_date_str: str, end_date_str: str, importers: List[IImporter]) -> None:
     start_date = datetime.datetime.strptime(start_date_str, "%Y/%m/%d").date()
     end_date = datetime.datetime.strptime(end_date_str, "%Y/%m/%d").date()
     start_date, end_date = _round_to_month(start_date, end_date)
@@ -61,6 +64,16 @@ def generate(start_date_str: str, end_date_str: str) -> None:
                 c.setFont("Helvetica-Bold", 12)
                 c.drawString(text_x, text_y, str(day))
                 c.setFillColor(colors.black)
+
+                day_date = datetime.date(year, month, day)
+                day_start = datetime.datetime.combine(day_date, datetime.time.min, tzinfo=datetime.timezone.utc)
+                day_end = day_start + datetime.timedelta(days=1)
+                events = []
+                for imp in importers:
+                    events.extend(list(imp.LoadRange(day_start, day_end)))
+                c.setFont("Helvetica", 8)
+                for idx, ev in enumerate(events):
+                    c.drawString(text_x, text_y - 12 * (idx + 1), ev.GetTitle())
 
         c.showPage()
         current_date = (current_date.replace(day=28) + datetime.timedelta(days=4)).replace(day=1)
