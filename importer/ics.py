@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import calendar
 import datetime as dt
 import io
 import contextlib
+import subprocess
 from dataclasses import dataclass
 from typing import Iterable, List
 from urllib import error, request
@@ -10,6 +12,20 @@ from urllib import error, request
 from ics import Calendar
 
 from .base import IEvent, IImporter, IImporterBuilder
+
+
+def _wget_user_agent() -> str:
+    """Return a user-agent string matching the locally installed wget."""
+    try:
+        # Output begins with: 'GNU Wget 1.21.4 built on ...'
+        result = subprocess.run(
+            ["wget", "--version"], capture_output=True, text=True, check=True
+        )
+        version = result.stdout.splitlines()[0].split()[2]
+        return f"Wget/{version}"
+    except Exception:
+        # Fallback to a commonly used wget version if detection fails.
+        return "Wget/1.21.4"
 
 
 @dataclass
@@ -36,7 +52,7 @@ class ICSImporter(IImporter):
 
     def Load(self) -> None:
         if self._path.startswith("http://") or self._path.startswith("https://"):
-            req = request.Request(self._path)
+            req = request.Request(self._path, headers={"User-Agent": _wget_user_agent()})
             opener = request.build_opener(
                 request.HTTPHandler(debuglevel=1),
                 request.HTTPSHandler(debuglevel=1),
@@ -84,10 +100,27 @@ class ICSImporter(IImporter):
         ]
 
     def LoadRange(self, start: dt.datetime, end: dt.datetime) -> Iterable[IEvent]:
+        year = start.year
+        is_leap = calendar.isleap(year)
         for ev in self._events:
             ev_start, ev_end = ev.GetTime()
             if ev_end >= start and ev_start <= end:
                 yield ev
+            elif (
+                not is_leap
+                and ev_start.month == 2
+                and ev_start.day == 29
+            ):
+                duration = ev_end - ev_start
+                adjusted_start = ev_start.replace(year=year, day=28)
+                adjusted_end = adjusted_start + duration
+                if adjusted_end >= start and adjusted_start <= end:
+                    yield ICSEvent(
+                        adjusted_start,
+                        adjusted_end,
+                        ev.GetTitle(),
+                        ev.GetDetail(),
+                    )
 
 
 class ICSImportBuilder(IImporterBuilder):
