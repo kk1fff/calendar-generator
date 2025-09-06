@@ -1,11 +1,12 @@
 import argparse
-from typing import Dict, Callable
+from typing import Dict, Callable, List
 
 import yaml
 
 from mode import weekly, monthly
+from importer import build_importers, IImporter
 
-MODE_GENERATORS: Dict[str, Callable[[str, str], None]] = {
+MODE_GENERATORS: Dict[str, Callable[[str, str, List[IImporter]], None]] = {
     "weekly": weekly.generate,
     "monthly": monthly.generate,
 }
@@ -16,7 +17,7 @@ def _load_preset(path: str) -> Dict[str, str]:
         data = yaml.safe_load(f) or {}
     if not isinstance(data, dict):
         raise ValueError("Preset file must define a mapping of options")
-    return {str(k): str(v) for k, v in data.items()}
+    return {str(k): v for k, v in data.items()}
 
 
 def main() -> None:
@@ -27,12 +28,15 @@ def main() -> None:
     args = parser.parse_args()
 
     config = _load_preset(args.preset)
+    importers = build_importers(config.get("importers", []))
+    for imp in importers:
+        imp.Load()
     mode_name = config.get("mode")
     generator = MODE_GENERATORS.get(mode_name)
     if generator is None:
         raise ValueError(f"Unsupported mode: {mode_name}")
 
-    generator(args.start_date, args.end_date)
+    generator(args.start_date, args.end_date, importers)
 
 
 if __name__ == "__main__":
