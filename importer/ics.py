@@ -37,7 +37,8 @@ class ICSImporter(IImporter):
         if self._path.startswith("http://") or self._path.startswith("https://"):
             try:
                 with httpx.Client() as client:
-                    resp = client.get(self._path)
+                    # Follow 3xx redirects to reach the final ICS resource
+                    resp = client.get(self._path, follow_redirects=True)
                     resp.raise_for_status()
                     data = resp.text
             except httpx.HTTPError as e:
