@@ -1,0 +1,1048 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lake Washington School District/finalsite//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:LWSD Calendar
+BEGIN:VEVENT
+UID:626452@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20250818T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:626450@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20250818T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631167@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250901
+SUMMARY:No school - Labor Day
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631166@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250902
+SUMMARY:LWSD - First day of school: 1-12
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631194@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250902
+SUMMARY:LWSD - Half-day elementary conferences
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631197@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250902
+SUMMARY:LWSD - Kindergarten Family Connections
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631195@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250903
+SUMMARY:LWSD - Half-day elementary conferences
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631198@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250903
+SUMMARY:LWSD - Kindergarten Family Connections
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631196@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250904
+SUMMARY:LWSD - Half-day elementary conferences
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631199@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250904
+SUMMARY:LWSD - Kindergarten Family Connections
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631693@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20250904T094500
+DTEND:20250904T111500
+SUMMARY:PTSA Council Meeting
+DESCRIPTION:\nOpen to all PTSA members. For more information about Lake Washington PTSA Council 2.8 services and resources\, visit:  https://lwptsa.net .\n
+LOCATION:LWSD Resource Center Board Room
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631169@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250905
+SUMMARY:LWSD - First day of staggered start Kindergarten
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631465@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250909
+SUMMARY:LWSD - First Day of Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631200@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250910
+SUMMARY:LWSD - Wednesday early release begins
+DESCRIPTION:* 90 minutes early for elementary\n  	* 105 minutes early for secondary\n
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631375@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20250915T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631376@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20250915T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631466@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20250918
+SUMMARY:LWSD - First Day of SNAPS Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631694@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251002T094500
+DTEND:20251002T111500
+SUMMARY:PTSA Council Meeting
+DESCRIPTION:\nOpen to all PTSA members. For more information about Lake Washington PTSA Council 2.8 services and resources\, visit:  https://lwptsa.net .\n
+LOCATION:LWSD Resource Center Board Room
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631377@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251006T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631378@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251006T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631380@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251013T160000
+SUMMARY:LWSD - Joint City Coordination Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631467@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251014
+SUMMARY:LWSD - Preschool Conferences - No Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631468@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251015
+SUMMARY:LWSD - Preschool Conferences - No Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631469@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251016
+SUMMARY:LWSD - Preschool Conferences - No Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631201@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251017
+SUMMARY:LWSD - No school - LEAP Day
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631384@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251020T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631385@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251020T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631386@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251103T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631387@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251103T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631202@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251104
+SUMMARY:LWSD - Last day 1st quarter (secondary)
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631720@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251106T190000
+DTEND:20251106T203000
+SUMMARY:PTSA Council Meeting
+DESCRIPTION:\nOpen to all PTSA members. For more information about Lake Washington PTSA Council 2.8 services and resources\, visit:  https://lwptsa.net .\n
+LOCATION:Remote via Zoom
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631209@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251111
+SUMMARY:No school - Veterans Day
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631216@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251112
+SUMMARY:LWSD - Secondary grades due
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631388@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251117T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631389@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251117T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631217@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251126
+SUMMARY:Half day
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631218@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251127
+SUMMARY:No school - Thanksgiving
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631219@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251128
+SUMMARY:No school - Thanksgiving
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631695@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251204T094500
+DTEND:20251204T111500
+SUMMARY:PTSA Council Meeting
+DESCRIPTION:\nOpen to all PTSA members. For more information about Lake Washington PTSA Council 2.8 services and resources\, visit:  https://lwptsa.net .\n
+LOCATION:LWSD Resource Center Board Room
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631390@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251208T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631391@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251208T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631392@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20251213T080000
+DTEND:20251213T120000
+SUMMARY:LWSD - School Board Extended Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631425@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251216
+SUMMARY:LWSD - Board community linkage event
+DESCRIPTION:\nDetails to be shared before event.\n
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631220@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251222
+SUMMARY:No school - Winter Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631221@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251223
+SUMMARY:No school - Winter Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631222@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251224
+SUMMARY:No school - Winter Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631223@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251225
+SUMMARY:No school - Winter Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631224@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251226
+SUMMARY:No school - Winter Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631225@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251229
+SUMMARY:No school - Winter Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631226@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251230
+SUMMARY:No school - Winter Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631227@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20251231
+SUMMARY:No school - Winter Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631228@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260101
+SUMMARY:No school - Winter Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631229@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260102
+SUMMARY:No school - Winter Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631721@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260108T190000
+DTEND:20260108T203000
+SUMMARY:PTSA Council Meeting
+DESCRIPTION:\nOpen to all PTSA members. For more information about Lake Washington PTSA Council 2.8 services and resources\, visit:  https://lwptsa.net .\n
+LOCATION:Remote via Zoom
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631393@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260112T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631394@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260112T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631230@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260119
+SUMMARY:No school - MLK Jr. Day
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631231@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260121
+SUMMARY:LWSD - Elementary grades due
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631232@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260123
+SUMMARY:LWSD - Last day 1st semester (secondary)
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631395@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260126T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631396@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260126T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631233@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260127
+SUMMARY:LWSD - Half-day elementary conferences
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631474@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260127
+SUMMARY:LWSD - Preschool Conferences - No Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631475@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260128
+SUMMARY:LWSD - Preschool Conferences - No Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631234@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260129
+SUMMARY:LWSD - Half-day elementary conferences
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631476@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260129
+SUMMARY:LWSD - Preschool Conferences - No Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631235@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260130
+SUMMARY:LWSD - Half-day elementary conferences
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631477@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260130
+SUMMARY:LWSD - Preschool Conferences - No Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631397@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260131T080000
+DTEND:20260131T120000
+SUMMARY:LWSD - School Board Extended Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631426@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260202
+SUMMARY:LWSD - Board community linkage event
+DESCRIPTION:\nDetails to be shared before event.\n
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631236@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260202
+SUMMARY:LWSD - Secondary grades due
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631696@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260205T094500
+DTEND:20260205T111500
+SUMMARY:PTSA Council Meeting
+DESCRIPTION:\nOpen to all PTSA members. For more information about Lake Washington PTSA Council 2.8 services and resources\, visit:  https://lwptsa.net .\n
+LOCATION:LWSD Resource Center Board Room
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631398@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260209T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631399@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260209T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631237@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260212
+SUMMARY:No school - Mid-winter break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631238@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260213
+SUMMARY:No school - Mid-winter break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631239@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260216
+SUMMARY:No school - Presidents Day
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631400@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260223T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631401@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260223T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631697@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260305T094500
+DTEND:20260305T111500
+SUMMARY:PTSA Council Meeting
+DESCRIPTION:\nOpen to all PTSA members. For more information about Lake Washington PTSA Council 2.8 services and resources\, visit:  https://lwptsa.net .\n
+LOCATION:LWSD Resource Center Board Room
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631403@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260313
+SUMMARY:LWSD - School Board Extended Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:TBD
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631240@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260313
+SUMMARY:No school - LEAP Day
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631404@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260314
+SUMMARY:LWSD - School Board Extended Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:TBD
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631405@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260315
+SUMMARY:LWSD - School Board Extended Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:TBD
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631406@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260323T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631407@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260323T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631698@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260402T094500
+DTEND:20260402T111500
+SUMMARY:PTSA Council Meeting
+DESCRIPTION:\nOpen to all PTSA members. For more information about Lake Washington PTSA Council 2.8 services and resources\, visit:  https://lwptsa.net .\n
+LOCATION:LWSD Resource Center Board Room
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631241@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260403
+SUMMARY:LWSD - Last day 3rd quarter (Secondary)
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631408@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260406T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631409@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260406T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631242@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260410
+SUMMARY:LWSD - Secondary grades due
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631479@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260413
+SUMMARY:No school - Spring Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631480@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260414
+SUMMARY:No school - Spring Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631481@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260415
+SUMMARY:No school - Spring Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631482@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260416
+SUMMARY:No school - Spring Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631483@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260417
+SUMMARY:No school - Spring Break
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631412@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260420T160000
+SUMMARY:LWSD - Joint City Coordination Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631413@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260504T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631414@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260504T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631722@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260507T190000
+DTEND:20260507T203000
+SUMMARY:PTSA Counceil Meeting
+DESCRIPTION:\nOpen to all PTSA members. For more information about Lake Washington PTSA Council 2.8 services and resources\, visit:  https://lwptsa.net .\n
+LOCATION:Remote via Zoom
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631415@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260518T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631416@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260518T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631486@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260520
+SUMMARY:LWSD - Preschool Conferences - No Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631487@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260521
+SUMMARY:LWSD - Preschool Conferences - No Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631248@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260522
+SUMMARY:No school - LEAP Day
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631249@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260525
+SUMMARY:No school - Memorial Day
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631250@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260526
+SUMMARY:No school UNLESS snow make-up day
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631417@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260601T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631418@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260601T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631699@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260604T094500
+DTEND:20260604T111500
+SUMMARY:PTSA Council Meeting
+DESCRIPTION:\nOpen to all PTSA members. For more information about Lake Washington PTSA Council 2.8 services and resources\, visit:  https://lwptsa.net .\n
+LOCATION:LWSD Resource Center Board Room
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631488@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260609
+SUMMARY:LWSD - Last day of SNAPS preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631251@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260610
+SUMMARY:LWSD - Elementary grades due
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631489@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260611
+SUMMARY:LWSD - Last day of Preschool
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631252@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260617
+SUMMARY:Half-day - Last day of school
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631253@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260617
+SUMMARY:LWSD - Last day 2nd semester (Secondary)
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631254@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART;VALUE=DATE:20260617
+SUMMARY:LWSD - Secondary grades due
+DESCRIPTION:
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631419@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260622T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631420@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260622T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631421@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260803T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631422@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260803T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631423@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260817T170000
+SUMMARY:LWSD - School Board Study Session
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+BEGIN:VEVENT
+UID:631424@www.lwsd.org
+DTSTAMP:20250906T072502Z
+DTSTART:20260817T190000
+SUMMARY:LWSD - School Board Meeting
+DESCRIPTION:\nView  BoardDocs  to see meeting agendas\, minutes\, presentations\, board packets and a full calendar of the board meetings and study sessions.\n
+LOCATION:LWSD Resource Center
+PRIORITY:0
+END:VEVENT
+
+END:VCALENDAR

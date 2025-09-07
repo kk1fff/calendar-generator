@@ -1,4 +1,4 @@
 mode: monthly
 importers:
   - importer_type: ics
-    path: "https://www.lwsd.org/calendar/calendar_354.ics"
+    path: "test_assets/calendar_354.ics"
