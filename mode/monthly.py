@@ -72,8 +72,22 @@ def generate(start_date_str: str, end_date_str: str, importers: List[IImporter])
                 for imp in importers:
                     events.extend(list(imp.LoadRange(day_start, day_end)))
                 c.setFont("Helvetica", 8)
-                for idx, ev in enumerate(events):
-                    c.drawString(text_x, text_y - 12 * (idx + 1), ev.GetTitle())
+                line_offset = 0
+                max_width = col_width - 4
+                for ev in events:
+                    words = ev.GetTitle().split()
+                    line = ""
+                    for word in words:
+                        test_line = word if not line else f"{line} {word}"
+                        if c.stringWidth(test_line, "Helvetica", 8) <= max_width:
+                            line = test_line
+                        else:
+                            c.drawString(text_x, text_y - 12 * (line_offset + 1), line)
+                            line_offset += 1
+                            line = word
+                    if line:
+                        c.drawString(text_x, text_y - 12 * (line_offset + 1), line)
+                        line_offset += 1
 
         c.showPage()
         current_date = (current_date.replace(day=28) + datetime.timedelta(days=4)).replace(day=1)
