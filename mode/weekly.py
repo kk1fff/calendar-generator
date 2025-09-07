@@ -80,8 +80,22 @@ def generate(start_date_str: str, end_date_str: str, importers: List[IImporter])
             for imp in importers:
                 events.extend(list(imp.LoadRange(day_start, day_end)))
             c.setFont("Helvetica", 8)
-            for idx, ev in enumerate(events):
-                c.drawString(x_positions[1] + 2, y_top - 14 - 10 * idx, ev.GetTitle())
+            line_offset = 0
+            max_width = note_col_width - 4
+            for ev in events:
+                words = ev.GetTitle().split()
+                line = ""
+                for word in words:
+                    test_line = word if not line else f"{line} {word}"
+                    if c.stringWidth(test_line, "Helvetica", 8) <= max_width:
+                        line = test_line
+                    else:
+                        c.drawString(x_positions[1] + 2, y_top - 14 - 10 * line_offset, line)
+                        line_offset += 1
+                        line = word
+                if line:
+                    c.drawString(x_positions[1] + 2, y_top - 14 - 10 * line_offset, line)
+                    line_offset += 1
 
         # Bottom and rightmost borders - thick
         c.setLineWidth(1.0)
